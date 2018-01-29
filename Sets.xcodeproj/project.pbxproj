@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73AE205C20092AA9001D498C /* CardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73AE205B20092AA9001D498C /* CardDeck.swift */; };
 		73FA4F012007C589001DCE25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FA4F002007C589001DCE25 /* AppDelegate.swift */; };
 		73FA4F032007C589001DCE25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FA4F022007C589001DCE25 /* ViewController.swift */; };
 		73FA4F062007C589001DCE25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73FA4F042007C589001DCE25 /* Main.storyboard */; };
 		73FA4F082007C589001DCE25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73FA4F072007C589001DCE25 /* Assets.xcassets */; };
 		73FA4F0B2007C589001DCE25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73FA4F092007C589001DCE25 /* LaunchScreen.storyboard */; };
+		73FA4F152007CB93001DCE25 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FA4F142007CB93001DCE25 /* Card.swift */; };
+		73FA4F172007D249001DCE25 /* Sets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FA4F162007D249001DCE25 /* Sets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73AE205B20092AA9001D498C /* CardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDeck.swift; sourceTree = "<group>"; };
 		73FA4EFD2007C589001DCE25 /* Sets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73FA4F002007C589001DCE25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73FA4F022007C589001DCE25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		73FA4F072007C589001DCE25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73FA4F0A2007C589001DCE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73FA4F0C2007C589001DCE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73FA4F142007CB93001DCE25 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		73FA4F162007D249001DCE25 /* Sets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 			children = (
 				73FA4F002007C589001DCE25 /* AppDelegate.swift */,
 				73FA4F022007C589001DCE25 /* ViewController.swift */,
+				73FA4F142007CB93001DCE25 /* Card.swift */,
+				73FA4F162007D249001DCE25 /* Sets.swift */,
+				73AE205B20092AA9001D498C /* CardDeck.swift */,
 				73FA4F042007C589001DCE25 /* Main.storyboard */,
 				73FA4F072007C589001DCE25 /* Assets.xcassets */,
 				73FA4F092007C589001DCE25 /* LaunchScreen.storyboard */,
@@ -137,7 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				73FA4F032007C589001DCE25 /* ViewController.swift in Sources */,
+				73AE205C20092AA9001D498C /* CardDeck.swift in Sources */,
 				73FA4F012007C589001DCE25 /* AppDelegate.swift in Sources */,
+				73FA4F172007D249001DCE25 /* Sets.swift in Sources */,
+				73FA4F152007CB93001DCE25 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
